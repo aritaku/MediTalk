@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E87CCE1E1D1245EE00FD4BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE1D1D1245EE00FD4BE2 /* AppDelegate.swift */; };
+		E87CCE201D1245EE00FD4BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE1F1D1245EE00FD4BE2 /* ViewController.swift */; };
+		E87CCE231D1245EE00FD4BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87CCE211D1245EE00FD4BE2 /* Main.storyboard */; };
+		E87CCE251D1245EE00FD4BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87CCE241D1245EE00FD4BE2 /* Assets.xcassets */; };
+		E87CCE281D1245EE00FD4BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87CCE261D1245EE00FD4BE2 /* LaunchScreen.storyboard */; };
+		E87CCE331D1245EE00FD4BE2 /* meditalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE321D1245EE00FD4BE2 /* meditalkTests.swift */; };
+		E87CCE3E1D1245EE00FD4BE2 /* meditalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE3D1D1245EE00FD4BE2 /* meditalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E87CCE2F1D1245EE00FD4BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87CCE121D1245EE00FD4BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87CCE191D1245EE00FD4BE2;
+			remoteInfo = meditalk;
+		};
+		E87CCE3A1D1245EE00FD4BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E87CCE121D1245EE00FD4BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87CCE191D1245EE00FD4BE2;
+			remoteInfo = meditalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E87CCE1A1D1245EE00FD4BE2 /* meditalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meditalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87CCE1D1D1245EE00FD4BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E87CCE1F1D1245EE00FD4BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E87CCE221D1245EE00FD4BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E87CCE241D1245EE00FD4BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E87CCE271D1245EE00FD4BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E87CCE291D1245EE00FD4BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87CCE2E1D1245EE00FD4BE2 /* meditalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meditalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87CCE321D1245EE00FD4BE2 /* meditalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditalkTests.swift; sourceTree = "<group>"; };
+		E87CCE341D1245EE00FD4BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87CCE391D1245EE00FD4BE2 /* meditalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meditalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87CCE3D1D1245EE00FD4BE2 /* meditalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditalkUITests.swift; sourceTree = "<group>"; };
+		E87CCE3F1D1245EE00FD4BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E87CCE171D1245EE00FD4BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87CCE2B1D1245EE00FD4BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87CCE361D1245EE00FD4BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E87CCE111D1245EE00FD4BE2 = {
+			isa = PBXGroup;
+			children = (
+				E87CCE1C1D1245EE00FD4BE2 /* meditalk */,
+				E87CCE311D1245EE00FD4BE2 /* meditalkTests */,
+				E87CCE3C1D1245EE00FD4BE2 /* meditalkUITests */,
+				E87CCE1B1D1245EE00FD4BE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E87CCE1B1D1245EE00FD4BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E87CCE1A1D1245EE00FD4BE2 /* meditalk.app */,
+				E87CCE2E1D1245EE00FD4BE2 /* meditalkTests.xctest */,
+				E87CCE391D1245EE00FD4BE2 /* meditalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E87CCE1C1D1245EE00FD4BE2 /* meditalk */ = {
+			isa = PBXGroup;
+			children = (
+				E87CCE1D1D1245EE00FD4BE2 /* AppDelegate.swift */,
+				E87CCE1F1D1245EE00FD4BE2 /* ViewController.swift */,
+				E87CCE211D1245EE00FD4BE2 /* Main.storyboard */,
+				E87CCE241D1245EE00FD4BE2 /* Assets.xcassets */,
+				E87CCE261D1245EE00FD4BE2 /* LaunchScreen.storyboard */,
+				E87CCE291D1245EE00FD4BE2 /* Info.plist */,
+			);
+			path = meditalk;
+			sourceTree = "<group>";
+		};
+		E87CCE311D1245EE00FD4BE2 /* meditalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E87CCE321D1245EE00FD4BE2 /* meditalkTests.swift */,
+				E87CCE341D1245EE00FD4BE2 /* Info.plist */,
+			);
+			path = meditalkTests;
+			sourceTree = "<group>";
+		};
+		E87CCE3C1D1245EE00FD4BE2 /* meditalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E87CCE3D1D1245EE00FD4BE2 /* meditalkUITests.swift */,
+				E87CCE3F1D1245EE00FD4BE2 /* Info.plist */,
+			);
+			path = meditalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E87CCE191D1245EE00FD4BE2 /* meditalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87CCE421D1245EE00FD4BE2 /* Build configuration list for PBXNativeTarget "meditalk" */;
+			buildPhases = (
+				E87CCE161D1245EE00FD4BE2 /* Sources */,
+				E87CCE171D1245EE00FD4BE2 /* Frameworks */,
+				E87CCE181D1245EE00FD4BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meditalk;
+			productName = meditalk;
+			productReference = E87CCE1A1D1245EE00FD4BE2 /* meditalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E87CCE2D1D1245EE00FD4BE2 /* meditalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87CCE451D1245EE00FD4BE2 /* Build configuration list for PBXNativeTarget "meditalkTests" */;
+			buildPhases = (
+				E87CCE2A1D1245EE00FD4BE2 /* Sources */,
+				E87CCE2B1D1245EE00FD4BE2 /* Frameworks */,
+				E87CCE2C1D1245EE00FD4BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87CCE301D1245EE00FD4BE2 /* PBXTargetDependency */,
+			);
+			name = meditalkTests;
+			productName = meditalkTests;
+			productReference = E87CCE2E1D1245EE00FD4BE2 /* meditalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E87CCE381D1245EE00FD4BE2 /* meditalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87CCE481D1245EE00FD4BE2 /* Build configuration list for PBXNativeTarget "meditalkUITests" */;
+			buildPhases = (
+				E87CCE351D1245EE00FD4BE2 /* Sources */,
+				E87CCE361D1245EE00FD4BE2 /* Frameworks */,
+				E87CCE371D1245EE00FD4BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E87CCE3B1D1245EE00FD4BE2 /* PBXTargetDependency */,
+			);
+			name = meditalkUITests;
+			productName = meditalkUITests;
+			productReference = E87CCE391D1245EE00FD4BE2 /* meditalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E87CCE121D1245EE00FD4BE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "有村琢磨";
+				TargetAttributes = {
+					E87CCE191D1245EE00FD4BE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E87CCE2D1D1245EE00FD4BE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E87CCE191D1245EE00FD4BE2;
+					};
+					E87CCE381D1245EE00FD4BE2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E87CCE191D1245EE00FD4BE2;
+					};
+				};
+			};
+			buildConfigurationList = E87CCE151D1245EE00FD4BE2 /* Build configuration list for PBXProject "meditalk" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E87CCE111D1245EE00FD4BE2;
+			productRefGroup = E87CCE1B1D1245EE00FD4BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E87CCE191D1245EE00FD4BE2 /* meditalk */,
+				E87CCE2D1D1245EE00FD4BE2 /* meditalkTests */,
+				E87CCE381D1245EE00FD4BE2 /* meditalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E87CCE181D1245EE00FD4BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87CCE281D1245EE00FD4BE2 /* LaunchScreen.storyboard in Resources */,
+				E87CCE251D1245EE00FD4BE2 /* Assets.xcassets in Resources */,
+				E87CCE231D1245EE00FD4BE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87CCE2C1D1245EE00FD4BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87CCE371D1245EE00FD4BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E87CCE161D1245EE00FD4BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87CCE201D1245EE00FD4BE2 /* ViewController.swift in Sources */,
+				E87CCE1E1D1245EE00FD4BE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87CCE2A1D1245EE00FD4BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87CCE331D1245EE00FD4BE2 /* meditalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87CCE351D1245EE00FD4BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87CCE3E1D1245EE00FD4BE2 /* meditalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E87CCE301D1245EE00FD4BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87CCE191D1245EE00FD4BE2 /* meditalk */;
+			targetProxy = E87CCE2F1D1245EE00FD4BE2 /* PBXContainerItemProxy */;
+		};
+		E87CCE3B1D1245EE00FD4BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E87CCE191D1245EE00FD4BE2 /* meditalk */;
+			targetProxy = E87CCE3A1D1245EE00FD4BE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E87CCE211D1245EE00FD4BE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87CCE221D1245EE00FD4BE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E87CCE261D1245EE00FD4BE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E87CCE271D1245EE00FD4BE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E87CCE401D1245EE00FD4BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E87CCE411D1245EE00FD4BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E87CCE431D1245EE00FD4BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = meditalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E87CCE441D1245EE00FD4BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = meditalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E87CCE461D1245EE00FD4BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = meditalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meditalk.app/meditalk";
+			};
+			name = Debug;
+		};
+		E87CCE471D1245EE00FD4BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = meditalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meditalk.app/meditalk";
+			};
+			name = Release;
+		};
+		E87CCE491D1245EE00FD4BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = meditalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = meditalk;
+			};
+			name = Debug;
+		};
+		E87CCE4A1D1245EE00FD4BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = meditalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = meditalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E87CCE151D1245EE00FD4BE2 /* Build configuration list for PBXProject "meditalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87CCE401D1245EE00FD4BE2 /* Debug */,
+				E87CCE411D1245EE00FD4BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87CCE421D1245EE00FD4BE2 /* Build configuration list for PBXNativeTarget "meditalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87CCE431D1245EE00FD4BE2 /* Debug */,
+				E87CCE441D1245EE00FD4BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87CCE451D1245EE00FD4BE2 /* Build configuration list for PBXNativeTarget "meditalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87CCE461D1245EE00FD4BE2 /* Debug */,
+				E87CCE471D1245EE00FD4BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87CCE481D1245EE00FD4BE2 /* Build configuration list for PBXNativeTarget "meditalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87CCE491D1245EE00FD4BE2 /* Debug */,
+				E87CCE4A1D1245EE00FD4BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E87CCE121D1245EE00FD4BE2 /* Project object */;
+}
