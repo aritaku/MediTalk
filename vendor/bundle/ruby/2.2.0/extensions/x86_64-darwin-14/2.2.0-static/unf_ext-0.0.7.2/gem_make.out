@@ -1,0 +1,13 @@
+/Users/arimuratakuma/.rvm/rubies/ruby-2.2.3/bin/ruby -r ./siteconf20160616-56852-1snrnu4.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 unf_ext.bundle ./.gem.20160616-56852-1rq76n1

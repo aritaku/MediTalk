@@ -11,12 +11,13 @@
 		797008BF5169D9D2CD1FADBD /* Pods_meditalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B71BD633CAFF43F3ABA05E6 /* Pods_meditalkUITests.framework */; };
 		E23F4A6961B0FEE15324BFC0 /* Pods_meditalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F825B6DBF7D39F11411A33BE /* Pods_meditalk.framework */; };
 		E87CCE1E1D1245EE00FD4BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE1D1D1245EE00FD4BE2 /* AppDelegate.swift */; };
-		E87CCE201D1245EE00FD4BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE1F1D1245EE00FD4BE2 /* ViewController.swift */; };
+		E87CCE201D1245EE00FD4BE2 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE1F1D1245EE00FD4BE2 /* ChatViewController.swift */; };
 		E87CCE231D1245EE00FD4BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87CCE211D1245EE00FD4BE2 /* Main.storyboard */; };
 		E87CCE251D1245EE00FD4BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87CCE241D1245EE00FD4BE2 /* Assets.xcassets */; };
 		E87CCE281D1245EE00FD4BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87CCE261D1245EE00FD4BE2 /* LaunchScreen.storyboard */; };
 		E87CCE331D1245EE00FD4BE2 /* meditalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE321D1245EE00FD4BE2 /* meditalkTests.swift */; };
 		E87CCE3E1D1245EE00FD4BE2 /* meditalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE3D1D1245EE00FD4BE2 /* meditalkUITests.swift */; };
+		E87CCE4F1D12ACFB00FD4BE2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE4E1D12ACFB00FD4BE2 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,7 @@
 		AEAE8287584DCCEA660ED26B /* Pods-meditalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meditalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-meditalkUITests/Pods-meditalkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E87CCE1A1D1245EE00FD4BE2 /* meditalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meditalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87CCE1D1D1245EE00FD4BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E87CCE1F1D1245EE00FD4BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E87CCE1F1D1245EE00FD4BE2 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		E87CCE221D1245EE00FD4BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E87CCE241D1245EE00FD4BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E87CCE271D1245EE00FD4BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +59,9 @@
 		E87CCE391D1245EE00FD4BE2 /* meditalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meditalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87CCE3D1D1245EE00FD4BE2 /* meditalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditalkUITests.swift; sourceTree = "<group>"; };
 		E87CCE3F1D1245EE00FD4BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87CCE4C1D12A82F00FD4BE2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		E87CCE4D1D12A82F00FD4BE2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E87CCE4E1D12ACFB00FD4BE2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F825B6DBF7D39F11411A33BE /* Pods_meditalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meditalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -128,7 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				E87CCE1D1D1245EE00FD4BE2 /* AppDelegate.swift */,
-				E87CCE1F1D1245EE00FD4BE2 /* ViewController.swift */,
+				E87CCE1F1D1245EE00FD4BE2 /* ChatViewController.swift */,
+				E87CCE4E1D12ACFB00FD4BE2 /* HomeViewController.swift */,
 				E87CCE211D1245EE00FD4BE2 /* Main.storyboard */,
 				E87CCE241D1245EE00FD4BE2 /* Assets.xcassets */,
 				E87CCE261D1245EE00FD4BE2 /* LaunchScreen.storyboard */,
@@ -427,8 +432,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E87CCE201D1245EE00FD4BE2 /* ViewController.swift in Sources */,
+				E87CCE201D1245EE00FD4BE2 /* ChatViewController.swift in Sources */,
 				E87CCE1E1D1245EE00FD4BE2 /* AppDelegate.swift in Sources */,
+				E87CCE4F1D12ACFB00FD4BE2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +474,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E87CCE221D1245EE00FD4BE2 /* Base */,
+				E87CCE4C1D12A82F00FD4BE2 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -476,6 +483,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E87CCE271D1245EE00FD4BE2 /* Base */,
+				E87CCE4D1D12A82F00FD4BE2 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
