@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		569321C7CB6F322009C50516 /* Pods_meditalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78629061EE7654FA84F41820 /* Pods_meditalkTests.framework */; };
+		797008BF5169D9D2CD1FADBD /* Pods_meditalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B71BD633CAFF43F3ABA05E6 /* Pods_meditalkUITests.framework */; };
+		E23F4A6961B0FEE15324BFC0 /* Pods_meditalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F825B6DBF7D39F11411A33BE /* Pods_meditalk.framework */; };
 		E87CCE1E1D1245EE00FD4BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE1D1D1245EE00FD4BE2 /* AppDelegate.swift */; };
 		E87CCE201D1245EE00FD4BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE1F1D1245EE00FD4BE2 /* ViewController.swift */; };
 		E87CCE231D1245EE00FD4BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87CCE211D1245EE00FD4BE2 /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5394537AF7D73302118B7099 /* Pods-meditalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meditalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meditalkUITests/Pods-meditalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5713AC134F6340818ADADFAE /* Pods-meditalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meditalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-meditalkTests/Pods-meditalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B71BD633CAFF43F3ABA05E6 /* Pods_meditalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meditalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78629061EE7654FA84F41820 /* Pods_meditalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meditalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84811124B012E3505B6285EC /* Pods-meditalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meditalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meditalkTests/Pods-meditalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		930DA3B5A3E11F53DC74F19A /* Pods-meditalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meditalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-meditalk/Pods-meditalk.release.xcconfig"; sourceTree = "<group>"; };
+		A98FF4A9678ECB5090D81A24 /* Pods-meditalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meditalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meditalk/Pods-meditalk.debug.xcconfig"; sourceTree = "<group>"; };
+		AEAE8287584DCCEA660ED26B /* Pods-meditalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meditalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-meditalkUITests/Pods-meditalkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E87CCE1A1D1245EE00FD4BE2 /* meditalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meditalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87CCE1D1D1245EE00FD4BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E87CCE1F1D1245EE00FD4BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		E87CCE391D1245EE00FD4BE2 /* meditalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meditalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87CCE3D1D1245EE00FD4BE2 /* meditalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meditalkUITests.swift; sourceTree = "<group>"; };
 		E87CCE3F1D1245EE00FD4BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F825B6DBF7D39F11411A33BE /* Pods_meditalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meditalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23F4A6961B0FEE15324BFC0 /* Pods_meditalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569321C7CB6F322009C50516 /* Pods_meditalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797008BF5169D9D2CD1FADBD /* Pods_meditalkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A6A0B525D7DAE9B766BED9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A98FF4A9678ECB5090D81A24 /* Pods-meditalk.debug.xcconfig */,
+				930DA3B5A3E11F53DC74F19A /* Pods-meditalk.release.xcconfig */,
+				84811124B012E3505B6285EC /* Pods-meditalkTests.debug.xcconfig */,
+				5713AC134F6340818ADADFAE /* Pods-meditalkTests.release.xcconfig */,
+				5394537AF7D73302118B7099 /* Pods-meditalkUITests.debug.xcconfig */,
+				AEAE8287584DCCEA660ED26B /* Pods-meditalkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E87CCE111D1245EE00FD4BE2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				E87CCE311D1245EE00FD4BE2 /* meditalkTests */,
 				E87CCE3C1D1245EE00FD4BE2 /* meditalkUITests */,
 				E87CCE1B1D1245EE00FD4BE2 /* Products */,
+				8A6A0B525D7DAE9B766BED9C /* Pods */,
+				EA3061E4D5325FE132BAEAD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = meditalkUITests;
 			sourceTree = "<group>";
 		};
+		EA3061E4D5325FE132BAEAD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F825B6DBF7D39F11411A33BE /* Pods_meditalk.framework */,
+				78629061EE7654FA84F41820 /* Pods_meditalkTests.framework */,
+				6B71BD633CAFF43F3ABA05E6 /* Pods_meditalkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E87CCE421D1245EE00FD4BE2 /* Build configuration list for PBXNativeTarget "meditalk" */;
 			buildPhases = (
+				AA20F5FDD87A03BCDDA287AC /* [CP] Check Pods Manifest.lock */,
 				E87CCE161D1245EE00FD4BE2 /* Sources */,
 				E87CCE171D1245EE00FD4BE2 /* Frameworks */,
 				E87CCE181D1245EE00FD4BE2 /* Resources */,
+				66596105179C5031A876A1B4 /* [CP] Embed Pods Frameworks */,
+				F3E00B31C84AF13182D058A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E87CCE451D1245EE00FD4BE2 /* Build configuration list for PBXNativeTarget "meditalkTests" */;
 			buildPhases = (
+				BEAF7DBEEB87F78BCBD1C257 /* [CP] Check Pods Manifest.lock */,
 				E87CCE2A1D1245EE00FD4BE2 /* Sources */,
 				E87CCE2B1D1245EE00FD4BE2 /* Frameworks */,
 				E87CCE2C1D1245EE00FD4BE2 /* Resources */,
+				1EBA5064F04A5AC035B3293F /* [CP] Embed Pods Frameworks */,
+				837143621FA91F2DCFAA03C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E87CCE481D1245EE00FD4BE2 /* Build configuration list for PBXNativeTarget "meditalkUITests" */;
 			buildPhases = (
+				0DDDD0267F971C3E4C5BE4DC /* [CP] Check Pods Manifest.lock */,
 				E87CCE351D1245EE00FD4BE2 /* Sources */,
 				E87CCE361D1245EE00FD4BE2 /* Frameworks */,
 				E87CCE371D1245EE00FD4BE2 /* Resources */,
+				4709C853976EFB5FB76EAA81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DDDD0267F971C3E4C5BE4DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1EBA5064F04A5AC035B3293F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meditalkTests/Pods-meditalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4709C853976EFB5FB76EAA81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meditalkUITests/Pods-meditalkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66596105179C5031A876A1B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meditalk/Pods-meditalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		837143621FA91F2DCFAA03C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meditalkTests/Pods-meditalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA20F5FDD87A03BCDDA287AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEAF7DBEEB87F78BCBD1C257 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E00B31C84AF13182D058A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meditalk/Pods-meditalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E87CCE161D1245EE00FD4BE2 /* Sources */ = {
@@ -397,6 +568,7 @@
 		};
 		E87CCE431D1245EE00FD4BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98FF4A9678ECB5090D81A24 /* Pods-meditalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = meditalk/Info.plist;
@@ -408,6 +580,7 @@
 		};
 		E87CCE441D1245EE00FD4BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930DA3B5A3E11F53DC74F19A /* Pods-meditalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = meditalk/Info.plist;
@@ -419,6 +592,7 @@
 		};
 		E87CCE461D1245EE00FD4BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84811124B012E3505B6285EC /* Pods-meditalkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = meditalkTests/Info.plist;
@@ -431,6 +605,7 @@
 		};
 		E87CCE471D1245EE00FD4BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5713AC134F6340818ADADFAE /* Pods-meditalkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = meditalkTests/Info.plist;
@@ -443,6 +618,7 @@
 		};
 		E87CCE491D1245EE00FD4BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5394537AF7D73302118B7099 /* Pods-meditalkUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = meditalkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +630,7 @@
 		};
 		E87CCE4A1D1245EE00FD4BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAE8287584DCCEA660ED26B /* Pods-meditalkUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = meditalkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

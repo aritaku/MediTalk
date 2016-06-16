@@ -1,0 +1,6 @@
+framework module Pods_meditalkTests {
+  umbrella header "Pods-meditalkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_meditalk {
+  umbrella header "Pods-meditalk-umbrella.h"
+
+  export *
+  module * { export * }
+}
