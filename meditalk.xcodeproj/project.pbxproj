@@ -18,6 +18,8 @@
 		E87CCE331D1245EE00FD4BE2 /* meditalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE321D1245EE00FD4BE2 /* meditalkTests.swift */; };
 		E87CCE3E1D1245EE00FD4BE2 /* meditalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE3D1D1245EE00FD4BE2 /* meditalkUITests.swift */; };
 		E87CCE4F1D12ACFB00FD4BE2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE4E1D12ACFB00FD4BE2 /* HomeViewController.swift */; };
+		E87CCE531D140E8500FD4BE2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE521D140E8500FD4BE2 /* User.swift */; };
+		E87CCE551D140F7E00FD4BE2 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE541D140F7E00FD4BE2 /* Chat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		E87CCE4C1D12A82F00FD4BE2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		E87CCE4D1D12A82F00FD4BE2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		E87CCE4E1D12ACFB00FD4BE2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E87CCE521D140E8500FD4BE2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E87CCE541D140F7E00FD4BE2 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		F825B6DBF7D39F11411A33BE /* Pods_meditalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meditalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,8 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				E87CCE1D1D1245EE00FD4BE2 /* AppDelegate.swift */,
-				E87CCE1F1D1245EE00FD4BE2 /* ChatViewController.swift */,
-				E87CCE4E1D12ACFB00FD4BE2 /* HomeViewController.swift */,
+				E87CCE511D140E6D00FD4BE2 /* Models */,
+				E87CCE501D140E3C00FD4BE2 /* ViewControllers */,
 				E87CCE211D1245EE00FD4BE2 /* Main.storyboard */,
 				E87CCE241D1245EE00FD4BE2 /* Assets.xcassets */,
 				E87CCE261D1245EE00FD4BE2 /* LaunchScreen.storyboard */,
@@ -158,6 +162,24 @@
 				E87CCE3F1D1245EE00FD4BE2 /* Info.plist */,
 			);
 			path = meditalkUITests;
+			sourceTree = "<group>";
+		};
+		E87CCE501D140E3C00FD4BE2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E87CCE4E1D12ACFB00FD4BE2 /* HomeViewController.swift */,
+				E87CCE1F1D1245EE00FD4BE2 /* ChatViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E87CCE511D140E6D00FD4BE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E87CCE521D140E8500FD4BE2 /* User.swift */,
+				E87CCE541D140F7E00FD4BE2 /* Chat.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		EA3061E4D5325FE132BAEAD1 /* Frameworks */ = {
@@ -432,8 +454,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87CCE531D140E8500FD4BE2 /* User.swift in Sources */,
 				E87CCE201D1245EE00FD4BE2 /* ChatViewController.swift in Sources */,
 				E87CCE1E1D1245EE00FD4BE2 /* AppDelegate.swift in Sources */,
+				E87CCE551D140F7E00FD4BE2 /* Chat.swift in Sources */,
 				E87CCE4F1D12ACFB00FD4BE2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
