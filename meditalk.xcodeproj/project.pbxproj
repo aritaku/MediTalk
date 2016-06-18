@@ -606,7 +606,7 @@
 				INFOPLIST_FILE = meditalk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aritaku.meditalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -619,7 +619,7 @@
 				INFOPLIST_FILE = meditalk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aritaku.meditalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

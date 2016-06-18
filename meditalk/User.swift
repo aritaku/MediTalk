@@ -11,6 +11,8 @@ import RealmSwift
 class User: Object {
     
     dynamic var name = ""
-    dynamic var age = Int = 0
-    dynamic var picture: NSData = nil
+    dynamic var age: Int = 0
+    dynamic var picture: NSData?
+    
+    
 }

@@ -10,8 +10,9 @@ import RealmSwift
 
 class Chat: Object {
     
-    dynamic var created_at: NSDate
+    dynamic var created_at: NSDate?
     dynamic var message: String = ""
-    dynamic var senderUser: User
+    dynamic var senderUser: User?
+    dynamic var receiverUser: User?
     
 }
