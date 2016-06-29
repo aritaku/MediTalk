@@ -20,6 +20,7 @@
 		E87CCE4F1D12ACFB00FD4BE2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE4E1D12ACFB00FD4BE2 /* HomeViewController.swift */; };
 		E87CCE531D140E8500FD4BE2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE521D140E8500FD4BE2 /* User.swift */; };
 		E87CCE551D140F7E00FD4BE2 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE541D140F7E00FD4BE2 /* Chat.swift */; };
+		E8AFF75A1D241A4600EED511 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AFF7591D241A4600EED511 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		E87CCE4E1D12ACFB00FD4BE2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E87CCE521D140E8500FD4BE2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E87CCE541D140F7E00FD4BE2 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		E8AFF7591D241A4600EED511 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		F825B6DBF7D39F11411A33BE /* Pods_meditalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meditalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				E87CCE1D1D1245EE00FD4BE2 /* AppDelegate.swift */,
+				E8AFF7591D241A4600EED511 /* UIColor+Extension.swift */,
 				E87CCE511D140E6D00FD4BE2 /* Models */,
 				E87CCE501D140E3C00FD4BE2 /* ViewControllers */,
 				E87CCE211D1245EE00FD4BE2 /* Main.storyboard */,
@@ -268,6 +271,8 @@
 				TargetAttributes = {
 					E87CCE191D1245EE00FD4BE2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R6G87ZFKDH;
+						DevelopmentTeamName = "Takuma Arimura";
 					};
 					E87CCE2D1D1245EE00FD4BE2 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -454,6 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8AFF75A1D241A4600EED511 /* UIColor+Extension.swift in Sources */,
 				E87CCE531D140E8500FD4BE2 /* User.swift in Sources */,
 				E87CCE201D1245EE00FD4BE2 /* ChatViewController.swift in Sources */,
 				E87CCE1E1D1245EE00FD4BE2 /* AppDelegate.swift in Sources */,
