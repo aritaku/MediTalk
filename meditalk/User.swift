@@ -14,5 +14,4 @@ class User: Object {
     dynamic var age: Int = 0
     dynamic var picture: NSData?
     
-    
 }

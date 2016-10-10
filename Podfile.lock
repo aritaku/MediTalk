@@ -12,9 +12,9 @@ PODS:
   - SVProgressHUD (2.0.3)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.0)
+  - Alamofire
   - JSQMessagesViewController (= 7.1.0)
-  - ObjectMapper (~> 2.1)
+  - ObjectMapper
   - RealmSwift
   - SVProgressHUD
 
@@ -27,6 +27,6 @@ SPEC CHECKSUMS:
   RealmSwift: 0eb5070d851cba7c66e841ca756d83609dc78bc8
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
-PODFILE CHECKSUM: 2eb481093c829dfe83336f7ff80c844e328277fd
+PODFILE CHECKSUM: 979ecb1ba3de74d9262878b583a0b3751478593a
 
 COCOAPODS: 1.0.1
