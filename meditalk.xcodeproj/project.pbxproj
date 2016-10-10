@@ -21,6 +21,7 @@
 		E87CCE531D140E8500FD4BE2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE521D140E8500FD4BE2 /* User.swift */; };
 		E87CCE551D140F7E00FD4BE2 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87CCE541D140F7E00FD4BE2 /* Chat.swift */; };
 		E8AFF75A1D241A4600EED511 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AFF7591D241A4600EED511 /* UIColor+Extension.swift */; };
+		E8AFF75C1D241BC300EED511 /* HomeStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8AFF75B1D241BC300EED511 /* HomeStrings.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		E87CCE521D140E8500FD4BE2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E87CCE541D140F7E00FD4BE2 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		E8AFF7591D241A4600EED511 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E8AFF75B1D241BC300EED511 /* HomeStrings.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = HomeStrings.strings; sourceTree = "<group>"; };
 		F825B6DBF7D39F11411A33BE /* Pods_meditalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meditalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,7 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				E87CCE1D1D1245EE00FD4BE2 /* AppDelegate.swift */,
-				E8AFF7591D241A4600EED511 /* UIColor+Extension.swift */,
+				E88032BB1D694F5700B397FF /* Extentions */,
 				E87CCE511D140E6D00FD4BE2 /* Models */,
 				E87CCE501D140E3C00FD4BE2 /* ViewControllers */,
 				E87CCE211D1245EE00FD4BE2 /* Main.storyboard */,
@@ -172,6 +174,7 @@
 			children = (
 				E87CCE4E1D12ACFB00FD4BE2 /* HomeViewController.swift */,
 				E87CCE1F1D1245EE00FD4BE2 /* ChatViewController.swift */,
+				E8AFF75B1D241BC300EED511 /* HomeStrings.strings */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -183,6 +186,14 @@
 				E87CCE541D140F7E00FD4BE2 /* Chat.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		E88032BB1D694F5700B397FF /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				E8AFF7591D241A4600EED511 /* UIColor+Extension.swift */,
+			);
+			name = Extentions;
 			sourceTree = "<group>";
 		};
 		EA3061E4D5325FE132BAEAD1 /* Frameworks */ = {
@@ -273,13 +284,16 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = R6G87ZFKDH;
 						DevelopmentTeamName = "Takuma Arimura";
+						LastSwiftMigration = 0800;
 					};
 					E87CCE2D1D1245EE00FD4BE2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = E87CCE191D1245EE00FD4BE2;
 					};
 					E87CCE381D1245EE00FD4BE2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = E87CCE191D1245EE00FD4BE2;
 					};
 				};
@@ -311,6 +325,7 @@
 			files = (
 				E87CCE281D1245EE00FD4BE2 /* LaunchScreen.storyboard in Resources */,
 				E87CCE251D1245EE00FD4BE2 /* Assets.xcassets in Resources */,
+				E8AFF75C1D241BC300EED511 /* HomeStrings.strings in Resources */,
 				E87CCE231D1245EE00FD4BE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +629,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aritaku.meditalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -627,6 +643,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aritaku.meditalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -639,6 +656,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meditalk.app/meditalk";
 			};
 			name = Debug;
@@ -652,6 +670,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meditalk.app/meditalk";
 			};
 			name = Release;
@@ -664,6 +683,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = meditalk;
 			};
 			name = Debug;
@@ -676,6 +696,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.meditalkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = meditalk;
 			};
 			name = Release;

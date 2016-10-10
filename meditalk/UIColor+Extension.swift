@@ -22,7 +22,7 @@ extension UIColor {
         return UIColor.rgbColor(0x9D9D9D)
     }
     
-    class func rgbColor(rgbValue: UInt, alpha: Float = 1.0) -> UIColor {
+    class func rgbColor(_ rgbValue: UInt, alpha: Float = 1.0) -> UIColor {
         
         return UIColor(
             red:   CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,

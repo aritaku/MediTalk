@@ -23,11 +23,11 @@ class ChatViewController: JSQMessagesViewController {
         self.senderDisplayName = "aritaku"
         
         let bubbleFuctory = JSQMessagesBubbleImageFactory()
-        self.incomingBubble = bubbleFuctory.incomingMessagesBubbleImageWithColor(UIColor.jsq_messageBubbleLightGrayColor())
-        self.outgoingBubble = bubbleFuctory.outgoingMessagesBubbleImageWithColor(UIColor.jsq_messageBubbleGreenColor())
+        self.incomingBubble = bubbleFuctory?.incomingMessagesBubbleImage(with: UIColor.jsq_messageBubbleLightGray())
+        self.outgoingBubble = bubbleFuctory?.outgoingMessagesBubbleImage(with: UIColor.jsq_messageBubbleGreen())
         
-        self.incomingAvatar = JSQMessagesAvatarImageFactory.avatarImageWithImage(UIImage(named: "cat")!, diameter: 64)
-        self.outgoingAvatar = JSQMessagesAvatarImageFactory.avatarImageWithImage(UIImage(named: "aritaku")!, diameter: 64)
+        self.incomingAvatar = JSQMessagesAvatarImageFactory.avatarImage(with: UIImage(named: "cat")!, diameter: 64)
+        self.outgoingAvatar = JSQMessagesAvatarImageFactory.avatarImage(with: UIImage(named: "aritaku")!, diameter: 64)
         
         self.messages = []
     }
@@ -36,21 +36,21 @@ class ChatViewController: JSQMessagesViewController {
         super.didReceiveMemoryWarning()
     }
     
-    override func didPressSendButton(button: UIButton!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: NSDate!) {
+    override func didPressSend(_ button: UIButton!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: Date!) {
         let message = JSQMessage(senderId: senderId, displayName: senderDisplayName, text: text)
-        self.messages?.append(message)
+        self.messages?.append(message!)
         self.inputToolbar.contentView.textView.text = ""
         
-        self.finishReceivingMessageAnimated(true)
+        self.finishReceivingMessage(animated: true)
         
         self.receiveAutoMessage()
     }
     
-    override func collectionView(collectionView: JSQMessagesCollectionView!, messageDataForItemAtIndexPath indexPath: NSIndexPath!) -> JSQMessageData! {
+    override func collectionView(_ collectionView: JSQMessagesCollectionView!, messageDataForItemAt indexPath: IndexPath!) -> JSQMessageData! {
         return self.messages?[indexPath.item]
     }
     
-    override func collectionView(collectionView: JSQMessagesCollectionView!, messageBubbleImageDataForItemAtIndexPath indexPath: NSIndexPath!) -> JSQMessageBubbleImageDataSource! {
+    override func collectionView(_ collectionView: JSQMessagesCollectionView!, messageBubbleImageDataForItemAt indexPath: IndexPath!) -> JSQMessageBubbleImageDataSource! {
         let message = self.messages?[indexPath.item]
         if message?.senderId == self.senderId {
             return self.outgoingBubble
@@ -58,7 +58,7 @@ class ChatViewController: JSQMessagesViewController {
         return self.incomingBubble
     }
     
-    override func collectionView(collectionView: JSQMessagesCollectionView!, avatarImageDataForItemAtIndexPath indexPath: NSIndexPath!) -> JSQMessageAvatarImageDataSource! {
+    override func collectionView(_ collectionView: JSQMessagesCollectionView!, avatarImageDataForItemAt indexPath: IndexPath!) -> JSQMessageAvatarImageDataSource! {
         let message = self.messages?[indexPath.item]
         if message?.senderId == self.senderId {
             return self.outgoingAvatar
@@ -66,21 +66,21 @@ class ChatViewController: JSQMessagesViewController {
         return self.incomingAvatar
     }
     
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return (self.messages?.count)!
     }
     
     func receiveAutoMessage() {
-        NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ChatViewController.didFinishMessageTimer(_:)), userInfo: nil, repeats: false)
+        Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ChatViewController.didFinishMessageTimer(_:)), userInfo: nil, repeats: false)
     }
     
-    @IBAction func tapVIew(sender: UITapGestureRecognizer) {
+    @IBAction func tapVIew(_ sender: UITapGestureRecognizer) {
         print("tap view")
     }
     
-    func didFinishMessageTimer(sender: NSTimer) {
+    func didFinishMessageTimer(_ sender: Timer) {
         let message = JSQMessage(senderId: "user2", displayName: "catBot", text: "にゃー")
-        self.messages?.append(message)
-        self.finishReceivingMessageAnimated(true)
+        self.messages?.append(message!)
+        self.finishReceivingMessage(animated: true)
     }
 }

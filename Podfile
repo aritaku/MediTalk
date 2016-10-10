@@ -1,16 +1,15 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.3'
+platform :ios, '10.1'
 
 target 'meditalk' do
   use_frameworks!
-  pod 'Alamofire', '~> 3.4'
-  pod 'ObjectMapper', '~> 1.3'
+  pod 'Alamofire', '~> 4.0'
+  pod 'ObjectMapper', '~> 2.1'
   pod 'RealmSwift'
-  pod 'Loggerithm', '~> 1.3'
   pod 'JSQMessagesViewController', '7.1.0'
   pod 'SVProgressHUD'
-  pod 'GoogleMaps', '1.11.1'
-  
+  #pod 'GoogleMaps', '1.11.1'
+
   target 'meditalkTests' do
     inherit! :search_paths
     # Pods for testing
